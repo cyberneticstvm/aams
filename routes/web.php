@@ -17,4 +17,3 @@ Route::get('/', function () {
     $title = 'Aams Global - Study and Work Abroad with Aams Global';
     return view('index', compact('title'));
 });
-//git
