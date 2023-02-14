@@ -100,24 +100,31 @@
 				<div class="container">
 					<div class="row g-4">
 						<div class="col-6 col-sm-6 col-lg-3">
-							<h3 class="uppercase letter-spacing-1">mono</h3>
+							<img class="logo-dark" src="{{ public_path().'/assets/aams/aams-logo.png' }}" alt="Aams Global">
 						</div>
 						<div class="col-6 col-sm-6 col-lg-3">
-							<h6 class="font-small fw-medium uppercase">Useful Links</h6>
+							<h6 class="font-small fw-medium uppercase">Top Destinations</h6>
 							<ul class="list-dash animate-links">
-								<li><a href="#">About us</a></li>
-								<li><a href="#">Team</a></li>
-								<li><a href="#">Prices</a></li>
-								<li><a href="#">Contact</a></li>
+								<li><a href="#">USA</a></li>
+								<li><a href="#">UK</a></li>
+								<li><a href="#">Canada</a></li>
+								<li><a href="#">Germany</a></li>
+								<li><a href="#">Ireland</a></li>
+								<li><a href="#">Australia</a></li>
+								<li><a href="#">New Zealand</a></li>
+								<li><a href="#">France</a></li>
 							</ul>
 						</div>
 						<div class="col-6 col-sm-6 col-lg-3">
-							<h6 class="font-small fw-medium uppercase">Additional Links</h6>
+							<h6 class="font-small fw-medium uppercase">Top Universities</h6>
 							<ul class="list-dash animate-links">
-								<li><a href="#">Services</a></li>
-								<li><a href="#">Process</a></li>
-								<li><a href="#">FAQ</a></li>
-								<li><a href="#">Careers</a></li>
+								<li><a href="#">RMIT University</a></li>
+								<li><a href="#">DEAKIN University</a></li>
+								<li><a href="#">LA TROBE University</a></li>
+								<li><a href="#">Centennial College</a></li>
+								<li><a href="#">University of Greenwich</a></li>
+								<li><a href="#">The Univeristy of Melbourne</a></li>
+								<li><a href="#">Univeristy of Birmingham</a></li>
 							</ul>
 						</div>
 						<div class="col-6 col-sm-6 col-lg-3">
@@ -135,7 +142,7 @@
 				<div class="container">
 					<div class="row align-items-center g-2 g-lg-3">
 						<div class="col-12 col-md-6 text-center text-md-start">
-							<p>&copy; 2023 FlaTheme, All Rights Reserved.</p>
+							<p>&copy; {{ date('Y') }} Aams Global, All Rights Reserved.</p>
 						</div>
 						<div class="col-12 col-md-6 text-center text-md-end">
 							<ul class="list-inline-sm">
