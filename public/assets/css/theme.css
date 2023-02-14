@@ -7301,9 +7301,9 @@ div[class*='bg-white'].fullscreen-menu .fm-wrapper .fm-close span:after {
 
 .header .header-logo img {
   width: auto;
-  height: 120px;
   max-height: 120px;
-  width: 250px;
+  /*height: 120px;  
+  width: 250px;*/
 }
 
 .header .header-logo a {
