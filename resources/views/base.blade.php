@@ -29,12 +29,11 @@
 		<!-- end Page Scroll Progress -->
 
 		<!-- Header -->
-		<div class="header sticky">
+		<div class="header sticky-autohide">
 			<div class="container">
 				<!-- Logo -->
 				<div class="header-logo">
-					<!-- 
-					<img class="logo-dark" src="../assets/images/your-logo-dark.png" alt="">-->
+					<img class="logo-light" src="{{ public_path().'/assets/aams/aams-logo.png' }}" alt="">
 					<img class="logo-dark" src="{{ public_path().'/assets/aams/aams-logo.png' }}" alt="Aams Global"> 
 					
 				</div>
